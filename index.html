@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Caleb Hester - Online Tutor</title>
+        <meta charset='utf-8'>
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+        <!-- jQuery and JS bundle w/ Popper.js -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+
+        <style>
+            .nav-item {
+                margin-left: 10px;
+            }
+
+            .main-content {
+                
+            }
+
+            #banner {
+                display: flex;
+                flex-direction: row;
+                padding-top: 60px;
+                width: 100%;
+                padding-left: 60px;
+                padding-right: 60px;
+                align-items: center;
+                padding-bottom: 60px;
+            }
+
+            #banner-text {
+                width: 40%;
+                margin: 60px;
+            }
+
+            #banner-text p {
+                color: rgb(100, 100, 100);
+            }
+
+            h1 {
+                font-size: 60px;
+            }
+
+            .row {
+                display: flex;
+                flex-direction: row;
+                justify-content: start;
+            }
+
+            .row-item {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin: 30px;
+                font-weight: bold;
+            }
+
+            .row-item .material-icons {
+                border-radius: 100%;
+                position: relative;
+                width: 50px;
+                height: 50px;
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 5px;
+            }
+
+            #youtube-embed {
+                box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 20px;
+            }
+
+            .white {
+                background-color: white;
+                padding-left: 120px;
+                padding-right: 120px;
+                padding-top: 60px;
+                padding-bottom: 60px;
+            }
+
+            .light-gray {
+                background-color: rgb(245, 245, 245);
+                padding-left: 120px;
+                padding-right: 120px;
+                padding-top: 60px;
+                padding-bottom: 60px;
+            }
+
+            #watch-me {
+                display: flex;
+                flex-direction: row;
+                padding-top: 60px;
+            }
+
+            #watch-me div {
+
+            }
+        </style>
+    </head>
+    <body>
+        <header class='navbar navbar-expand-lg navbar-light bg-light'>
+            <a class="navbar-brand" href="#">Caleb Hester - Online Tutor</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class='collapse navbar-collapse order-3'>
+                <ul class='nav navbar-nav ml-auto'>
+                    <li class='nav-item active'><a class='nav-link' href='.'>Home <span class='sr-only'>(current)</span></a></li>
+                    <li class='nav-item'><a class='nav-link' href='./about.html'>About Me</a></li>
+                    <li class='nav-item'><a class='btn btn-primary' href='./tutoring.html'>Tutoring</a></li>
+                    <li class='nav-item'><a class='btn btn-primary' href='https://www.youtube.com/channel/UCjp634egvctokrZriGV-4JA' target='_blank'>YouTube Channel</a></li>
+                    <li class='nav-item'><a class='btn btn-primary' href='mailto:naclcaleb@gmail.com'>Send A Question</a></li>
+                </ul>
+            </div>
+        </header>
+        <div class='main-content'>
+            <div id='banner'>
+                <div id='banner-text'>
+                    <h5>Struggling with Online Learning?</h5>
+                    <h1 class='text-primary'>I'm here to help.</h1>
+                    <p>
+                        Hi, I'm Caleb! I'm offering online tutoring for people struggling with education, especially with the recent shift to online learning. 
+                    </p>
+                    <div class='row'>
+                        <div class='row-item'><i class='material-icons bg-primary'>school</i>Tutoring</div>
+                        <div class='row-item'><i class='material-icons bg-primary'>videocam</i>Video Lessons</div>
+                        <div class='row-item'><i class='material-icons bg-primary'>question_answer</i>Q&A</div>
+                    </div>
+                </div>
+                <iframe id='youtube-embed' width="560" height="315" src="https://www.youtube.com/embed/s4ts53IBVtg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div id='watch-me' class='light-gray'>
+                <div>
+                    <h2 class='text-primary'>One-on-one Tutoring</h2>
+                    <p>
+                        I offer one-on-one tutoring sessions to help people as they navigate this new world of distance learning.
+                    </p>
+                    <p>
+                        I'm currently helping people with math (high school algebra, geometry, trigonometry, as well as Calculus I and II), and I hope to start helping with sciences like Biology, Chemistry, and Physics as well.
+                    </p>
+                    <p>
+                        <b>If you're having difficulty in math, I'd love to help as best I can. Please feel free to sign up for a tutoring session for me - you'll get your first one FREE!</b>
+                    </p>
+                    <a class='btn btn-primary' href='./tutoring.html'>Sign up for your free Tutoring Session</a>
+                </div>
+                
+            </div>
+            <div id='youtube' class='white'>
+                <h2 class='text-primary'>YouTube Video Series</h2>
+                <p>
+                    In addition to one-on-one tutoring, I'm working on creating video series going over math and science. I'm currently working on my Intermediate Algebra series, with hopefully more to come!
+                </p>
+ 
+                <a class='btn btn-primary' href='https://www.youtube.com/channel/UCjp634egvctokrZriGV-4JA' target='_blank'>Got to my YouTube Channel</a>
+            </div>
+            <div id='watch-me' class='light-gray'>
+                <div>
+                    <h2 class='text-primary'>Q&A</h2>
+                    <p>
+                        Have a math problem you'd like me to work through? Got a quick question that doesn't warrant a whole tutoring session?
+                    </p>
+                    <p>
+                        Send them over! I'll respond as quickly as I can, either with a text response or a video reply. 
+                    </p>
+                    <p>
+                        <b>I'm dedicated to helping you in any way I can. I'll make every effort to answer your question, and/or direct you to resources where you can find it yourself!</b>
+                    </p>
+                    <a class='btn btn-primary' href='mailto:naclcaleb@gmail.com'>Send a Question</a>
+                </div>
+                
+            </div>
+        </div>
+    </body>
+</html>
